@@ -9,10 +9,13 @@ def desenhar_caixa():
 
 def desenhar_oval():
   """Desenha um oval usando asteriscos."""
-  print("   **** ")
-  print(" *      *")
-  print("*        *")
-  print(" * *** *")
+  print("    **** ")
+  print("  *       *")
+  print(" *         *")
+  print('*           *')
+  print(" *         *")
+  print("    *** ")
+
 
 
 def desenhar_seta():
@@ -46,3 +49,6 @@ def main():
 
   print("\nLosango:")
   desenhar_losango()
+
+if __name__ == "__main__":
+  main()
