@@ -9,10 +9,10 @@ def desenhar_caixa():
 
 def desenhar_oval():
   """Desenha um oval usando asteriscos."""
-  print("  **** ")
-  print("* *")
-  print("* *")
-  print("  **** ")
+  print("   **** ")
+  print(" *      *")
+  print("*        *")
+  print(" * *** *")
 
 
 def desenhar_seta():
