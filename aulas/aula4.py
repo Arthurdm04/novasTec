@@ -97,3 +97,7 @@ print(pessoa['Nome'])
 print(pessoa['idade'])
 print(pessoa['cidade'])
 print(pessoa['sexo'])
+
+
+agenda = {'Arthur': [6199838373, 21, 'Luziania'], 'Ju': [6109349028, 22, 'bsb']}
+print(agenda['Arthur'][0]) # Nesse caso só apra ver o primeiro item da lista, nesse caso o telefone
