@@ -89,15 +89,17 @@ print(fruta)
 
 
 # Dicionário
+# Exemplo 1
 salas = {'10': 15, '15': 200, '3': 4}
 print(salas['15'])
 
+# Exemplo 2
 pessoa = {'Nome' : 'Arthur', 'idade': 21, 'cidade': 'Luziania', 'sexo': 'M'}
 print(pessoa['Nome'])
 print(pessoa['idade'])
 print(pessoa['cidade'])
 print(pessoa['sexo'])
 
-
+# Exemplo 3
 agenda = {'Arthur': [6199838373, 21, 'Luziania'], 'Ju': [6109349028, 22, 'bsb']}
 print(agenda['Arthur'][0]) # Nesse caso só apra ver o primeiro item da lista, nesse caso o telefone
