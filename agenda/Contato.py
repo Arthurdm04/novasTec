@@ -1,6 +1,5 @@
 class Contato:
-
-    __slots__=['_nome', '_numero', '_datanasc', '_email']
+    __slots__ = ['_nome', '_numero', '_datanasc', '_email']
 
     def __init__(self, nome, numero, datanasc, email):
         self._nome = nome
@@ -8,6 +7,7 @@ class Contato:
         self._datanasc = datanasc
         self._email = email
 
+    # Properties (getters/setters) permanecem iguais
     @property
     def nome(self):
         return self._nome
@@ -39,3 +39,6 @@ class Contato:
     @email.setter
     def email(self, email):
         self._email = email
+
+    def __str__(self):
+        return f"Nome: {self.nome} | Número: {self.numero} | Nascimento: {self.datanasc.strftime('%d/%m/%Y')} | Email: {self.email}"
